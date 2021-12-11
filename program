@@ -1,0 +1,8 @@
+file=open("myfile.json","r")
+for item in file:
+    if "access_token" in item:
+        print(item)
+file.close()
+
+printprint
+print
